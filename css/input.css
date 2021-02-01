@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #fff;
+  color: #1da0f2;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #fff;
+  color: #1da0f2;
+  border-bottom: 1px solid #1da0f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-title p {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.title {
+  width: 100%;
+  height: 80px;
+  font-size: 30px;
+  font-weight: bold;
+  border: #1da0f2;
+  background-color: #fff;
+  color: #1da0f2;
+  border: 1px solid #1da0f2;
+}
+
+.file {
+  width: 100%;
+  height: 80px;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  border-bottom: 1px solid #1da0f2;
+  background: #fff;
+  color: gray;
+  cursor: pointer;
+}
+
+.file input[type="file"] {
+  opacity: 0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 0;
+  width: 100%;
+  height: 80px;
+}
+
+button {
+  height: 40px;
+  cursor: pointer;
+  padding: 10px 30px;
+  background-color: #fff;
+  color: #1da0f2;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover {
+  border: 1px solid #1da0f2;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon::before {
+  display: inline-block;
+  margin-right: .5em;
+  font-family: fontawesome;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.home-icon::before {
+  color: #1da0f2;
+  font-family: fontawesome;
+  content: "\f09b";
+  margin-right: .5em;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
